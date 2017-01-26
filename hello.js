@@ -1,6 +1,6 @@
 var http = require('http');
 var fs = require('fs');
-var file = "../index1.html";
+var file = "./index.html";
 fs.readFile(file, function (err, html) {
     http.createServer(function (req, res) {
         var nombre = 'bacon';
